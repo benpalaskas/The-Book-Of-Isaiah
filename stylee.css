@@ -1,0 +1,107 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+main{
+    min-height: 100vh;
+    background: linear-gradient(to right top, #c9cdd1, #cbacf7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.glass{
+    background: white;
+    min-height: 80vh;
+    width: 60%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.897),rgba(238, 202, 202, 0.4));
+    border-radius: 2rem;
+    z-index: 3
+}
+
+.textbox{
+    padding-top: 4vh;
+    padding-bottom:4vh;
+    padding-left: 2vh;
+
+}
+
+.smallpad{
+    padding-bottom:2vh;
+    padding-left: 2vh;
+    padding-right: 1vh;
+    padding-top: 2vh;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.74),rgba(250, 248, 248, 0.651))
+}
+.circle1,
+.circle2{
+    background: white;
+    background: linear-gradient(to right bottom, rgba(245, 136, 136, 0.9),rgba(247, 180, 180, 0.562));
+    border-radius: 2rem;
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    border-radius: 47%;
+    
+}
+.circle1{
+    top: 5%;
+    right: 15%;
+    z-index: 2;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/La_J%C3%A9rusalem_c%C3%A9leste_%282%29.jpg/800px-La_J%C3%A9rusalem_c%C3%A9leste_%282%29.jpg');
+   
+
+}
+
+.circle2{
+    bottom: 5%;
+    left: 10%;
+   
+
+}
+img{
+    
+    max-width: 200px;
+    max-height: 200px;
+    opacity: .2;}
+
+ .btncontainer{
+    margin: auto;
+    display: flex;
+}
+.bg1{
+    background-image: url('./bg1.jpg')
+}
+.bg2{
+    background-image: url('./bg2.jpg')
+}
+.bg3{
+    background-image: url('./bg3.jpg')
+}
+.bg4{
+    background-image: url('./bg4.jpg')
+}
+.bg5{
+    background-image: url('./bg5.jpg');
+}
+#refresher{
+display: inline-block;
+padding: 0.35em 1.2em;
+border:0.1em solid #FFFFFF;
+margin:0 0.3em 0.3em 0;
+border-radius:0.12em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#050505;
+text-align:center;
+transition: all 0.2s;
+}
+#refresher:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+}
